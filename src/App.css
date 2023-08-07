@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    
+  .container {
+    background-color: #FAF9FA;
+    border-radius: 8px;
+    padding: 3rem;
+    margin-top: 6rem;
   }
-  to {
-    transform: rotate(360deg);
+  .heading_text
+  {
+    font-size: 15px !important;
+    font-weight: 400;
   }
-}
+  .heading_two
+  {
+    padding-top: 5px;
+  }
+  .total_amount_card
+  {
+    height: 537px;
+    background-color: #D6FF58;
+    border-radius: 27px; 
+  }
+   
+  .right
+  {
+    float: right;
+    margin-top: -2rem;
+  }
+  .card_text {
+    padding-top: 40px;
+  }
+  .total_amount_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 10rem;
+  }
+  .total_amount_para {
+    text-align: center;
+    font-size: 18px !important;
+    padding-top: 5px;
+    color: #4B4B4B;
+  }
+  .input_area
+  {
+    margin-top: 40px;
+  }
+    
+  .input_field
+  {
+    margin-top: 30px;
+    width: 445px;
+  }
+  #outlined-basic {
+    width: 410px;
+  }
+    
+  .button_collection
+  {
+    margin-top: 61px;
+    margin-bottom: 1rem;
+  }
+  .btn_one {
+    background-color: #F2F2F2 !important;
+    width: 200px;
+    height: 75px;
+    color: black !important;
+    font-weight: 600;
+    font-size: 20px !important;
+    
+  }
+   
+  .btn_two {
+    background-color: #F2F2F2 !important;
+    width: 200px;
+    height: 75px;
+    color: black !important;
+    font-size: 20px !important;
+    
+  }
